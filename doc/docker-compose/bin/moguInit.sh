@@ -57,7 +57,7 @@ echo "############判断是否安装了docker-compose##############"
 if ! type docker-compose >/dev/null 2>&1; then
     echo 'docker-compose 未安装';
 	echo '开始安装docker-compose....';		
-	wget https://mogublog-v2.oss-cn-guangzhou.aliyuncs.com/software/docker-compose-Linux-x86_64
+	wget https://hyblog-v2.oss-cn-guangzhou.aliyuncs.com/software/docker-compose-Linux-x86_64
 	mv docker-compose-Linux-x86_64  docker-compose
 	chmod +x docker-compose
 	mv docker-compose /usr/local/bin/
@@ -80,10 +80,10 @@ fi
 
 
 echo '创建docker网络';
-docker network create mogu
+docker network create hanying
 
 echo '正在拉取一键部署脚本';
-wget https://mogublog-v2.oss-cn-guangzhou.aliyuncs.com/software/docker-compose.zip
+wget https://hyblog-v2.oss-cn-guangzhou.aliyuncs.com/software/docker-compose.zip
 
 
 unzip docker-compose.zip

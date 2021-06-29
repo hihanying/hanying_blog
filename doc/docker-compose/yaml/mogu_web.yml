@@ -1,19 +1,19 @@
 version: '3'
 services:
   #授权服务
-  mogu_web:
-    image: registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_web:latest
-    container_name: mogu_web
+  hanying_web:
+    image: registry.cn-shenzhen.aliyuncs.com/hyblog/hanying_web:latest
+    container_name: hanying_web
     restart: always
     ports:
       - 8603:8603
     networks:
-      - mogu
+      - hanying
     environment:
-      - COMPOSE_PROJECT_NAME=mogu_web
+      - COMPOSE_PROJECT_NAME=hanying_web
     volumes:
       - ../log/:/logs/
-      - ../config/mogu_web/:/config/
+      - ../config/hanying_web/:/config/
 networks:
-  mogu:
+  hanying:
     external: true

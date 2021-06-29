@@ -55,7 +55,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       template: 'index.html',
       inject: true,
       favicon: resolve('favicon.ico'),
-      title: '蘑菇云后台管理系统',
+      title: '应寒云后台管理系统',
       env: getEnv(),
       minify: {
         removeComments: true,

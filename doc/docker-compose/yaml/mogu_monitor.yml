@@ -1,19 +1,19 @@
 version: '3'
 services:
   #授权服务
-  mogu_mointor:
-    image: registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_monitor:latest
-    container_name: mogu_monitor
+  hanying_mointor:
+    image: registry.cn-shenzhen.aliyuncs.com/hyblog/hanying_monitor:latest
+    container_name: hanying_monitor
     restart: always
     ports:
       - 8606:8606
     networks:
-      - mogu
+      - hanying
     environment:
-      - COMPOSE_PROJECT_NAME=mogu_monitor
+      - COMPOSE_PROJECT_NAME=hanying_monitor
     volumes:
       - ../log/:/logs/
-      - ../config/mogu_monitor/:/config/
+      - ../config/hanying_monitor/:/config/
 networks:
-  mogu:
+  hanying:
     external: true

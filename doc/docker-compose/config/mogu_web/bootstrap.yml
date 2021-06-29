@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: mogu-web
+    name: hanying-web
   cloud:
     nacos:
       username: nacos

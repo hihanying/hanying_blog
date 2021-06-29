@@ -1,18 +1,18 @@
 version: '3'
 services:
   #授权服务
-  mogu_search:
-    image: registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_search:latest
-    container_name: mogu_search
+  hanying_search:
+    image: registry.cn-shenzhen.aliyuncs.com/hyblog/hanying_search:latest
+    container_name: hanying_search
     restart: always
     ports:
       - 8605:8605
     networks:
-      - mogu
+      - hanying
     environment:
-      - COMPOSE_PROJECT_NAME=mogu_search
+      - COMPOSE_PROJECT_NAME=hanying_search
     volumes:
       - ../log/:/logs/
 networks:
-  mogu:
+  hanying:
     external: true

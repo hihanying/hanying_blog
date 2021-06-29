@@ -1,8 +1,8 @@
 {
-  "name": "mogu_blog",
+  "name": "hanying_blog",
   "version": "1.0.0",
   "private": true,
-  "author": "陌溪_ <xzx19950624@qq.com>",
+  "author": "应寒_ <xzx19950624@qq.com>",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

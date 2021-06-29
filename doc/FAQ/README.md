@@ -6,25 +6,25 @@
 
 ![image-20200512145014851](images/image-20200512145014851.png)
 
-这是因为没有启动链路追踪服务 zipkin，不过不启动也没有关系，只在启动的时候出错一次，不影响正常的使用，如果需要引入，那么参考博客：[使用Zipkin搭建蘑菇博客链路追踪](http://moguit.cn/#/info?blogUid=35bd93cabc08611c7f74ce4564753ef9)
+这是因为没有启动链路追踪服务 zipkin，不过不启动也没有关系，只在启动的时候出错一次，不影响正常的使用，如果需要引入，那么参考博客：[使用Zipkin搭建应寒博客链路追踪](http://hanyingit.cn/#/info?blogUid=35bd93cabc08611c7f74ce4564753ef9)
 
-## 2、线上服务器内存太小，如何部署蘑菇博客
+## 2、线上服务器内存太小，如何部署应寒博客
 
-目前博主使用的服务器配置是1核2G，没有启动对应的监控组件和搜索服务，如 `zipkin`，`mogu_search`、`mogu-monitor`等
+目前博主使用的服务器配置是1核2G，没有启动对应的监控组件和搜索服务，如 `zipkin`，`hanying_search`、`hanying-monitor`等
 
 只启动了一些核心的服务，目前线上服务器最低要求需要的配置清单如下：
 
-- `mogu-eureka`：服务注册与发现
-- `mogu-picture`： 图片服务，用于图片上传和下载
-- `mogu-sms`：消息服务，用于更新ElasticSearch、Solr索引、邮件和短信发送
-- `mogu-web`：管理端服务，提供admin端API接口服务；
-- `mogu-admin`：门户端服务，提供web端API接口服务；
+- `hanying-eureka`：服务注册与发现
+- `hanying-picture`： 图片服务，用于图片上传和下载
+- `hanying-sms`：消息服务，用于更新ElasticSearch、Solr索引、邮件和短信发送
+- `hanying-web`：管理端服务，提供admin端API接口服务；
+- `hanying-admin`：门户端服务，提供web端API接口服务；
 - `mysql`：用于数据存储
 - `redis`：缓存服务，用户存储热点数据
 - `rabbitmq`：消息中间件
 - `nginx`：静态资源映射和反向代理
 
-关于具体各个模块的启动参考博客：[使用Docker快速搭建蘑菇博客](http://www.moguit.cn/#/info?blogUid=ab8377106a0d4b9f8d66131e4312c69e)
+关于具体各个模块的启动参考博客：[使用Docker快速搭建应寒博客](http://www.hanyingit.cn/#/info?blogUid=ab8377106a0d4b9f8d66131e4312c69e)
 
 ## 3、RabbitMQ在运行过程中突然宕机了怎么办？
 
@@ -40,12 +40,12 @@ rabbitmq-server -detached
 本地运行成功后，没有图片，则需要我们手动进行图片上传，首先我们需要检查一下nginx是否成功启动，然后是否在nginx中添加了对应的映射，我们需要修改nginx.conf配置文件。
 
 ```
-	#蘑菇博客图片资源
+	#应寒博客图片资源
 	server {
 	listen       8600;
 	server_name  localhost;	
 	location / {
-		root   D:\mogu_blog\data;
+		root   D:\hanying_blog\data;
 		index  index.html index.htm;
 	}
 	}
@@ -88,17 +88,17 @@ npm install --registry=https://registry.npm.taobao.org
 
 
 
-## 6、如何在蘑菇博客的基础上扩展新的模块，应该怎么做？
+## 6、如何在应寒博客的基础上扩展新的模块，应该怎么做？
 
 首先感谢群里小伙伴 @客官讲好简单 的反馈，目前假设小伙伴想要在扩展一个新的功能。
 
-- 首先需要在 mogu_admin 下的 RestApi包中，添加一个类
+- 首先需要在 hanying_admin 下的 RestApi包中，添加一个类
 
 ![image-20200520093426190](images/image-20200520093426190.png)
 
 
 
-然后需要在 vue_mogu_admin项目中，编写对应的页面
+然后需要在 vue_hanying_admin项目中，编写对应的页面
 
 ![image-20200520101824704](images/image-20200520101824704.png)
 

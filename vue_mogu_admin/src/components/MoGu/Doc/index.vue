@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'MoGuDoc',
+  name: 'Doc',
   data() {
     return {
-      url: 'http://moxi159753.gitee.io/mogu_blog_doc/#/'
+      url: 'http://hihanying.gihub.io'
     }
   },
   methods: {

@@ -105,7 +105,7 @@
     </el-row>
 
     <!--仪表盘弹框通知-->
-    <el-dialog
+    <!-- <el-dialog
       title="通知"
       :visible.sync="notificationDialogVisible"
       v-if="systemConfig.openDashboardNotification == 1"
@@ -115,7 +115,7 @@
       :before-close="closeNotificationDialogVisible"
       center>
       <span v-html="systemConfig.dashboardNotification"></span>
-    </el-dialog>
+    </el-dialog> -->
 
   </div>
 </template>

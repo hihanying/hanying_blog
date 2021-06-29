@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: mogu-sms
+    name: hanying-sms
   cloud:
     nacos:
       username: nacos

@@ -16,11 +16,11 @@
         </el-tooltip>
 
         <el-tooltip content="Gitee源码" effect="dark" placement="bottom">
-          <MoGuGit id="mogu-git" class="right-menu-item" />
+          <MoGuGit id="hanying-git" class="right-menu-item" />
         </el-tooltip>
 
         <el-tooltip content="文档地址" effect="dark" placement="bottom">
-          <MoGuDoc id="mogu-doc" class="right-menu-item" />
+          <MoGuDoc id="hanying-doc" class="right-menu-item" />
         </el-tooltip>
 
         <el-tooltip effect="dark" content="全屏" placement="bottom">
@@ -94,7 +94,7 @@ export default {
     },
     showLog: function() {
       console.log("点击了显示日志");
-      window.open("https://gitee.com/moxi159753/mogu_blog_v2/releases", "_blank")
+      window.open("https://gitee.com/moxi159753/hanying_blog_v2/releases", "_blank")
     },
     aboutMe: function () {
       this.$router.push({path:'/system/aboutMe'})

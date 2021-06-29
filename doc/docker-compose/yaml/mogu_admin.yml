@@ -1,19 +1,19 @@
 version: '3'
 services:
   #授权服务
-  mogu_admin:
-    image: registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_admin:latest
-    container_name: mogu_admin
+  hanying_admin:
+    image: registry.cn-shenzhen.aliyuncs.com/hyblog/hanying_admin:latest
+    container_name: hanying_admin
     restart: always
     ports:
       - 8601:8601
     networks:
-      - mogu
+      - hanying
     environment:
-      - COMPOSE_PROJECT_NAME=mogu_admin
+      - COMPOSE_PROJECT_NAME=hanying_admin
     volumes:
       - ../log/:/logs/
-      - ../config/mogu_admin/:/config/
+      - ../config/hanying_admin/:/config/
 networks:
-  mogu:
+  hanying:
     external: true

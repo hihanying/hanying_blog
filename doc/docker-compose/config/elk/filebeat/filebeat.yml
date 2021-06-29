@@ -4,56 +4,56 @@ filebeat.inputs:
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-web/*.log
+      - ../../../log/hanying-web/*.log
     fields:
-      docType: mogu_web-log
-      project: mogu_web
-      from: mogu_web
+      docType: hanying_web-log
+      project: hanying_web
+      from: hanying_web
     fields_under_root: true
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-admin/*.log
+      - ../../../log/hanying-admin/*.log
     fields:
-      docType: mogu_admin-log
-      project: mogu_admin
-      from: mogu_admin
+      docType: hanying_admin-log
+      project: hanying_admin
+      from: hanying_admin
     fields_under_root: true
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-sms/*.log
+      - ../../../log/hanying-sms/*.log
     fields:
-      docType: mogu_sms-log
-      project: mogu_sms
-      from: mogu_sms
+      docType: hanying_sms-log
+      project: hanying_sms
+      from: hanying_sms
     fields_under_root: true
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-picture/*.log
+      - ../../../log/hanying-picture/*.log
     fields:
-      docType: mogu_picture-log
-      project: mogu_picture
-      from: mogu_picture
+      docType: hanying_picture-log
+      project: hanying_picture
+      from: hanying_picture
     fields_under_root: true
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-gateway/*.log
+      - ../../../log/hanying-gateway/*.log
     fields:
-      docType: mogu_gateway-log
-      project: mogu_gateway
-      from: mogu_gateway
+      docType: hanying_gateway-log
+      project: hanying_gateway
+      from: hanying_gateway
     fields_under_root: true
   - type: log
     enabled: true
     paths:
-      - ../../../log/mogu-monitor/*.log
+      - ../../../log/hanying-monitor/*.log
     fields:
-      docType: mogu_monitor-log
-      project: mogu_monitor
-      from: mogu_monitor
+      docType: hanying_monitor-log
+      project: hanying_monitor
+      from: hanying_monitor
     fields_under_root: true
 
 

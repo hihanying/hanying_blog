@@ -8,11 +8,11 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.moxi</groupId>
-    <artifactId>mogu_blog</artifactId>
+    <groupId>top.hihanying</groupId>
+    <artifactId>hanying_blog</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>mogu_blog</name>
+    <name>hanying_blog</name>
     <description>a blog web</description>
 
     <properties>
@@ -57,19 +57,19 @@
 
 
     <modules>
-        <module>mogu_utils</module>
-        <module>mogu_base</module>
-        <module>mogu_xo</module>
-        <module>mogu_admin</module>
-        <module>mogu_web</module>
-        <module>mogu_picture</module>
-        <module>mogu_sms</module>
-        <module>mogu_search</module>
-        <module>mogu_monitor</module>
-        <module>mogu_gateway</module>
-        <module>mogu_zipkin</module>
-        <module>mogu_spider</module>
-        <module>mogu_commons</module>
+        <module>hanying_utils</module>
+        <module>hanying_base</module>
+        <module>hanying_xo</module>
+        <module>hanying_admin</module>
+        <module>hanying_web</module>
+        <module>hanying_picture</module>
+        <module>hanying_sms</module>
+        <module>hanying_search</module>
+        <module>hanying_monitor</module>
+        <module>hanying_gateway</module>
+        <module>hanying_zipkin</module>
+        <module>hanying_spider</module>
+        <module>hanying_commons</module>
     </modules>
 
     <dependencyManagement>

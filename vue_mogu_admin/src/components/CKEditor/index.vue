@@ -34,7 +34,7 @@ export default {
     CKEDITOR.plugins.addExternal( 'pasteUploadImage', '/static/ckeditor/plugins/pasteUploadImage/', 'plugin.js' );
 
     //使用ckeditor替换textarea，设置代码块风格为 zenburn
-    // 上传时，携带token信息，以便于被feign拦截后传递给mogu-admin获取七牛云相关配置
+    // 上传时，携带token信息，以便于被feign拦截后传递给hanying-admin获取七牛云相关配置
     CKEDITOR.replace('editor',
       {height: this.height,
         width: '100%',

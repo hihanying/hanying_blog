@@ -47,7 +47,7 @@ export default {
   name: "Head",
   head() {
     return {
-      title: "蘑菇博客 - 专注于技术分享的博客平台",
+      title: "应寒博客 - 专注于技术分享的博客平台",
       meta: [
         { charset: "utf-8" },
         {
@@ -58,7 +58,7 @@ export default {
         {
           name: "keywords",
           content:
-            "蘑菇博客,蘑菇社区,蘑菇技术社区,,蘑菇IT社区,IT社区,技术社区,Java技术分享,Spring教程,开发者社区"
+            "应寒博客,应寒社区,应寒技术社区,,应寒IT社区,IT社区,技术社区,Java技术分享,Spring教程,开发者社区"
         }
       ]
     };

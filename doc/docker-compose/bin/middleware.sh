@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo '=====开始安装蘑菇博客中间件环境====='
+echo '=====开始安装应寒博客中间件环境====='
 
 echo '=====开始运行mysql====='
 docker-compose -f ../yaml/mysql.yml up -d
@@ -18,9 +18,9 @@ docker-compose -f ../yaml/rabbitmq.yml up -d
 echo '=====开始运行redis====='
 docker-compose -f ../yaml/redis.yml up -d
 
-echo '=====开始部署mogu_data====='
-docker-compose -f ../yaml/mogu_data.yml up -d
+echo '=====开始部署hanying_data====='
+docker-compose -f ../yaml/hanying_data.yml up -d
 
 echo '=============================================='
-echo '=====【蘑菇博客依赖的中间件已经安装完毕】====='
+echo '=====【应寒博客依赖的中间件已经安装完毕】====='
 echo '=============================================='

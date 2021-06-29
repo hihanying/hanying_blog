@@ -1,19 +1,19 @@
 version: '3'
 services:
   #授权服务
-  vue_mogu_admin:
-    image: registry.cn-shenzhen.aliyuncs.com/mogublog/vue_mogu_admin:latest
-    container_name: vue_mogu_admin
+  vue_hanying_admin:
+    image: registry.cn-shenzhen.aliyuncs.com/hyblog/vue_hanying_admin:latest
+    container_name: vue_hanying_admin
     restart: always
     ports:
       - 9528:80
     networks:
-      - mogu
+      - hanying
     env_file:
-      - ../config/vue_mogu_admin.env
+      - ../config/vue_hanying_admin.env
     environment:
-      - COMPOSE_PROJECT_NAME=vue_mogu_admin
+      - COMPOSE_PROJECT_NAME=vue_hanying_admin
 
 networks:
-  mogu:
+  hanying:
     external: true

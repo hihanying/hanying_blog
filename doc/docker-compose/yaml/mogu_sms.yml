@@ -1,19 +1,19 @@
 version: '3'
 services:
   #授权服务
-  mogu_sms:
-    image: registry.cn-shenzhen.aliyuncs.com/mogublog/mogu_sms:latest
-    container_name: mogu_sms
+  hanying_sms:
+    image: registry.cn-shenzhen.aliyuncs.com/hyblog/hanying_sms:latest
+    container_name: hanying_sms
     restart: always
     ports:
       - 8604:8604
     networks:
-      - mogu
+      - hanying
     environment:
-      - COMPOSE_PROJECT_NAME=mogu_sms
+      - COMPOSE_PROJECT_NAME=hanying_sms
     volumes:
       - ../log/:/logs/
-      - ../config/mogu_sms/:/config/
+      - ../config/hanying_sms/:/config/
 networks:
-  mogu:
+  hanying:
     external: true

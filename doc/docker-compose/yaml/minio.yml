@@ -7,14 +7,14 @@ services:
     ports:
       - "9090:9000"
     environment:
-      - "MINIO_ACCESS_KEY=mogu2018"
-      - "MINIO_SECRET_KEY=mogu2018"
+      - "MINIO_ACCESS_KEY=hanying2018"
+      - "MINIO_SECRET_KEY=hanying2018"
     command: server /data
     volumes:
       - ../data/minio_data:/data
     networks:
-      - mogu    
+      - hanying    
 
 networks:
-  mogu:
+  hanying:
     external: true

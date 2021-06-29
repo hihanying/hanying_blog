@@ -1,45 +1,45 @@
-# 蘑菇博客
+# 应寒博客
 
 <p align=center>
-  <a href="http://www.moguit.cn">
-    <img src="./doc/images/gitee/favicon2.ico" alt="蘑菇博客" style="width:200px;height:200px">
+  <a href="http://www.hanyingit.cn">
+    <img src="./doc/images/gitee/favicon2.ico" alt="应寒博客" style="width:200px;height:200px">
   </a>
 </p>
 <p align=center>
-   蘑菇博客，一个基于微服务架构的前后端分离博客系统
+   应寒博客，一个基于微服务架构的前后端分离博客系统
 </p>
 <p align="center">
-<a target="_blank" href="https://gitee.com/moxi159753/mogu_blog_v2">
+<a target="_blank" href="https://gitee.com/moxi159753/hanying_blog_v2">
     	<img src="https://img.shields.io/hexpm/l/plug.svg" ></img>
 		<img src="https://img.shields.io/badge/JDK-1.8+-green.svg" ></img>
         <img src="https://img.shields.io/badge/springboot-2.2.2.RELEASE-green" ></img>
 <img src="https://img.shields.io/badge/SpringCloud-Hoxton.RELEASE-brightgreen" ></img><img src="https://img.shields.io/badge/vue-2.5.17-green" ></img>
 <img src="https://img.shields.io/badge/swagger-3.0.0-brightgreen" ></img>
 <img src="https://img.shields.io/badge/mybatis--plus-3.1.2-green" ></img>
-<img src="https://gitee.com/moxi159753/mogu_blog_v2/badge/star.svg?theme=dark" ></img>
-<img src="https://gitee.com/moxi159753/mogu_blog_v2/badge/fork.svg?theme=dark" ></img>
+<img src="https://gitee.com/moxi159753/hanying_blog_v2/badge/star.svg?theme=dark" ></img>
+<img src="https://gitee.com/moxi159753/hanying_blog_v2/badge/fork.svg?theme=dark" ></img>
 </a></p>
 
 
-[项目介绍](#项目介绍) | [站点演示](#站点演示) | [项目特点](#项目特点) | [技术架构](#技术选型) | [项目目录](#项目目录) | [项目文档](#项目文档)  | [快速开始](#快速开始) | [视频教程](#视频教程)| [项目截图](#移动端截图) | [更新记录](https://gitee.com/moxi159753/mogu_blog_v2/releases) | [笔记仓库](https://gitee.com/moxi159753/LearningNotes)
+[项目介绍](#项目介绍) | [站点演示](#站点演示) | [项目特点](#项目特点) | [技术架构](#技术选型) | [项目目录](#项目目录) | [项目文档](#项目文档)  | [快速开始](#快速开始) | [视频教程](#视频教程)| [项目截图](#移动端截图) | [更新记录](https://gitee.com/moxi159753/hanying_blog_v2/releases) | [笔记仓库](https://gitee.com/moxi159753/LearningNotes)
 
 ##  前言
 
-[**陌溪**](https://gitee.com/moxi159753/LearningNotes/raw/master/doc/images/qq/添加陌溪.png) 是一个从三本院校一路摸滚翻爬上来的程序员。目前就职于字节跳动的Data广告部门，是字节跳动全线产品的商业变现研发团队。这两天创建了一个 **微信公众号【[陌溪教你学编程](https://gitee.com/moxi159753/LearningNotes/raw/master/doc/images/qq/公众号2.jpg)】**，未来将会在公众号上持续性的输出很多原创小知识以及学习资源，欢迎各位小伙伴关注我，和我一起共同学习，同时我也希望各位小伙伴能够给**蘑菇博客**项目多多 **Star** 支持，您的**点赞**就是我维护的动力！
+[**应寒**](https://gitee.com/moxi159753/LearningNotes/raw/master/doc/images/qq/添加应寒.png) 是一个从三本院校一路摸滚翻爬上来的程序员。目前就职于字节跳动的Data广告部门，是字节跳动全线产品的商业变现研发团队。这两天创建了一个 **微信公众号【[应寒教你学编程](https://gitee.com/moxi159753/LearningNotes/raw/master/doc/images/qq/公众号2.jpg)】**，未来将会在公众号上持续性的输出很多原创小知识以及学习资源，欢迎各位小伙伴关注我，和我一起共同学习，同时我也希望各位小伙伴能够给**应寒博客**项目多多 **Star** 支持，您的**点赞**就是我维护的动力！
 
 <p align=center>
     <img src="./doc/images/qq/公众号2.jpg" width="500" />
 </p>
 
-项目已有较详细的  [项目搭建文档](http://moxi159753.gitee.io/mogu_blog_doc) ，同时包括了 **Windows**、**Linux** 以及 **Docker** 环境下蘑菇博客的搭建。在使用过程中遇到问题时，首先认真阅读**项目搭建文档** ，同时 [FAQ文档](http://www.moguit.cn/#/info?blogOid=288) 还收集了小伙伴咨询的问题，可以提前阅读~
+项目已有较详细的  [项目搭建文档](http://moxi159753.gitee.io/hanying_blog_doc) ，同时包括了 **Windows**、**Linux** 以及 **Docker** 环境下应寒博客的搭建。在使用过程中遇到问题时，首先认真阅读**项目搭建文档** ，同时 [FAQ文档](http://www.hanyingit.cn/#/info?blogOid=288) 还收集了小伙伴咨询的问题，可以提前阅读~
 
 【提问前】可以先 [百度](https://www.baidu.com/) 或者 [Google](https://www.google.com/) 进行解决，有的问题通过**搜索引擎**很快就能得到解决
 
-【提问前】可以首先看看 [issue](https://gitee.com/moxi159753/mogu_blog_v2/issues) 或者  [FAQ文档](http://www.moguit.cn/#/info?blogOid=288)，可能你的问题别人也遇到过
+【提问前】可以首先看看 [issue](https://gitee.com/moxi159753/hanying_blog_v2/issues) 或者  [FAQ文档](http://www.hanyingit.cn/#/info?blogOid=288)，可能你的问题别人也遇到过
 
-【提问前】可以提前阅读 [如何向开源社区提问题](http://www.moguit.cn/#/info?blogUid=b0f76c94a81fa3b815f8e39e4dc889f8)
+【提问前】可以提前阅读 [如何向开源社区提问题](http://www.hanyingit.cn/#/info?blogUid=b0f76c94a81fa3b815f8e39e4dc889f8)
 
-【提问】推荐使用 [Gitee issue](https://gitee.com/moxi159753/mogu_blog_v2/issues) 进行提问，因为issue解决后能够保留解决记录，帮助其它小伙伴避坑。其次可以使用  <a href="##关注&交流">QQ群 </a>  或者 <a href="##前言">微信群 </a> 进行提问。群里提问注意提问的时间，把遇到**问题的详细过程都描述清楚**，最好**配上图文信息**，这样能有利于更高效的解决问题。
+【提问】推荐使用 [Gitee issue](https://gitee.com/moxi159753/hanying_blog_v2/issues) 进行提问，因为issue解决后能够保留解决记录，帮助其它小伙伴避坑。其次可以使用  <a href="##关注&交流">QQ群 </a>  或者 <a href="##前言">微信群 </a> 进行提问。群里提问注意提问的时间，把遇到**问题的详细过程都描述清楚**，最好**配上图文信息**，这样能有利于更高效的解决问题。
 
 ##  内推
 
@@ -57,32 +57,32 @@
 
 ## 项目介绍
 
-蘑菇博客( **MoguBlog** )，一个**基于微服务架构的前后端分离博客系统**。**Web** 端使用 **Vue** + **ElementUi** , 移动端使用 **uniapp** 和 **ColorUI**。后端使用 **SpringCloud** + **SpringBoot** + **Mybatis-plus**进行开发，使用 **Jwt** + **SpringSecurity** 做登录验证和权限校验，使用 **ElasticSearch** 和 **Solr** 作为全文检索服务，使用 **Github Actions**完成博客的持续集成，使用 **ElasticStack** 收集博客日志，文件支持**上传本地**、**七牛云** 和 **Minio**.
+应寒博客( **MoguBlog** )，一个**基于微服务架构的前后端分离博客系统**。**Web** 端使用 **Vue** + **ElementUi** , 移动端使用 **uniapp** 和 **ColorUI**。后端使用 **SpringCloud** + **SpringBoot** + **Mybatis-plus**进行开发，使用 **Jwt** + **SpringSecurity** 做登录验证和权限校验，使用 **ElasticSearch** 和 **Solr** 作为全文检索服务，使用 **Github Actions**完成博客的持续集成，使用 **ElasticStack** 收集博客日志，文件支持**上传本地**、**七牛云** 和 **Minio**.
 
-- 蘑菇博客大部分功能是我个人进行开发的，因能力有限，其中很多技术都是一边学习一边使用的，可以说蘑菇博客也是一个我用来熟悉技术的项目，所以很多地方可能考虑不周，故有能改正的地方，还请各位老哥能够指出~
+- 应寒博客大部分功能是我个人进行开发的，因能力有限，其中很多技术都是一边学习一边使用的，可以说应寒博客也是一个我用来熟悉技术的项目，所以很多地方可能考虑不周，故有能改正的地方，还请各位老哥能够指出~
 - 现在挺多是SSM或者SSH的博客管理系统，想用 **SpringBoot** + **SpringCloud**  + **Vue** 的微服务架构进行尝试项目的构建，里面很多功能可能只是**为了满足自己的学习需求**而引入的，大家可以**根据自己服务器配置来选择启动的服务**，因此本博客也是一个非常好的 **SpringBoot**、**SpringCloud**以及 **Vue** 技术的入门学习项目。
 - 原来做过 **Vue** + **ElementUi** 做过管理系统，所以现在打算做一套自己的、基于当前最新技术栈、前后端分离的微服务博客系统。
-- [蘑菇博客](http://moguit.cn/#/)中的一些文章，很多都来自我平时的学习笔记，目前托管在另一个仓库：[LearningNotes](https://gitee.com/moxi159753/LearningNotes)，里面涵盖了 **JVM**、**JUC**、**Java**，**Spring**，**SpringCloud**，计算机网络，操作系统，数据结构，**Vue**、**Linux** 等 ，感兴趣的小伙伴可以跳转该仓库 [Star支持](https://gitee.com/moxi159753/LearningNotes) 一下
+- [应寒博客](http://hanyingit.cn/#/)中的一些文章，很多都来自我平时的学习笔记，目前托管在另一个仓库：[LearningNotes](https://gitee.com/moxi159753/LearningNotes)，里面涵盖了 **JVM**、**JUC**、**Java**，**Spring**，**SpringCloud**，计算机网络，操作系统，数据结构，**Vue**、**Linux** 等 ，感兴趣的小伙伴可以跳转该仓库 [Star支持](https://gitee.com/moxi159753/LearningNotes) 一下
 
-## 蘑菇博客Go版本
+## 应寒博客Go版本
 
-[**mogu-go-v2**](https://gitee.com/yanglei88/mogu-go-v2) 是根据**蘑菇博客**改编的一个 **Golang** 简化版分支，实现了蘑菇博客后台原有的大部分**基础功能**，同时前端代码和数据库基本没有变化，因此可以直接使用蘑菇博客原有的前端页面。
+[**hanying-go-v2**](https://gitee.com/yanglei88/hanying-go-v2) 是根据**应寒博客**改编的一个 **Golang** 简化版分支，实现了应寒博客后台原有的大部分**基础功能**，同时前端代码和数据库基本没有变化，因此可以直接使用应寒博客原有的前端页面。
 
-**mogu-go-v2** 目前采用的技术有：**beego**、**gorm**、**mysql**、**redis** 和 **nginx**。相比于蘑菇博客微服务版，**Golang**版蘑菇能够做到 **1C2G** 的服务器轻松运行，再也不怕网站第二天起来就宕机了~。
+**hanying-go-v2** 目前采用的技术有：**beego**、**gorm**、**mysql**、**redis** 和 **nginx**。相比于应寒博客微服务版，**Golang**版应寒能够做到 **1C2G** 的服务器轻松运行，再也不怕网站第二天起来就宕机了~。
 
-参考[蘑菇博客Golang版安装指南](https://t.1yb.co/kQ4k)，快速在 **Windows** 平台搭建蘑菇博客Go版开发环境
+参考[应寒博客Golang版安装指南](https://t.1yb.co/kQ4k)，快速在 **Windows** 平台搭建应寒博客Go版开发环境
 
 ## 站点演示
 
-首先特别感谢阿里云提供的 [学生“在家实践” 计划](https://developer.aliyun.com/adc/student/?spm=a2c6h.14062461.J_7747362070.1.5b6933e1X3rvHS)，免费提供的 **6** 个月的 **2核4G1M** 的服务器，所以就刚好以此用来做蘑菇博客的演示站点，同时我也在搭建的时候，顺便录制了一套视频：[利用阿里云免费服务器搭建个人博客](https://www.bilibili.com/video/BV1c5411b7EZ?t=17) ，感兴趣的小伙伴可以参考视频一起完成部署~
+首先特别感谢阿里云提供的 [学生“在家实践” 计划](https://developer.aliyun.com/adc/student/?spm=a2c6h.14062461.J_7747362070.1.5b6933e1X3rvHS)，免费提供的 **6** 个月的 **2核4G1M** 的服务器，所以就刚好以此用来做应寒博客的演示站点，同时我也在搭建的时候，顺便录制了一套视频：[利用阿里云免费服务器搭建个人博客](https://www.bilibili.com/video/BV1c5411b7EZ?t=17) ，感兴趣的小伙伴可以参考视频一起完成部署~
 
-> 【演示前端】：http://demoweb.moguit.cn/
+> 【演示前端】：http://demoweb.hanyingit.cn/
 >
-> 【演示后端】：http://demoadmin.moguit.cn/
+> 【演示后端】：http://demoadmin.hanyingit.cn/
 >
-> 【演示账号】：[点击获取](https://gitee.com/moxi159753/mogu_blog_v2/raw/Nacos/doc/images/qq/%E8%8E%B7%E5%8F%96%E6%BC%94%E7%A4%BA%E7%8E%AF%E5%A2%83%E8%B4%A6%E5%8F%B7.jpg)
+> 【演示账号】：[点击获取](https://gitee.com/moxi159753/hanying_blog_v2/raw/Nacos/doc/images/qq/%E8%8E%B7%E5%8F%96%E6%BC%94%E7%A4%BA%E7%8E%AF%E5%A2%83%E8%B4%A6%E5%8F%B7.jpg)
 >
-> 【小程序】蘑菇博客的移动端版本，可以扫码体验（代码在Nacos分支下的uniapp_mogu_web文件夹）
+> 【小程序】应寒博客的移动端版本，可以扫码体验（代码在Nacos分支下的uniapp_hanying_web文件夹）
 
 |                                                          |
 | :------------------------------------------------------: |
@@ -90,26 +90,26 @@
 
 ## 项目中初始用户和密码
 
-- **后台登录**：用户：admin，密码：mogu2018
-- 前台登录：用户：mogu2018，密码：mogu2018
-- **Mysql**：用户：root，密码：mogu2018
-- **Redis**：密码：mogu2018
-- **远程SSH初始密码**：用户：root，密码：mogu2018
-- **RabbitMQ管理页面：** 用户：admin，密码：mogu2018
+- **后台登录**：用户：admin，密码：hanying2018
+- 前台登录：用户：hanying2018，密码：hanying2018
+- **Mysql**：用户：root，密码：hanying2018
+- **Redis**：密码：hanying2018
+- **远程SSH初始密码**：用户：root，密码：hanying2018
+- **RabbitMQ管理页面：** 用户：admin，密码：hanying2018
 - **Nacos管理页面：** 用户：nacos，密码：nacos
 - **Sentinel管理页面：** 用户：sentinel，密码：sentinel
-- **蘑菇博客监控页面**：用户：user，密码：password123
+- **应寒博客监控页面**：用户：user，密码：password123
 - **Druid初始密码：** 用户：admin，密码：123456
 
 ## 运行配置
 
-蘑菇博客使用了一些监控的 **SpringCloud** 组件，但是并不一定都需要部署，必须启动的服务包含
+应寒博客使用了一些监控的 **SpringCloud** 组件，但是并不一定都需要部署，必须启动的服务包含
 
-`nacos`，`nginx`，`rabbitmq`， `redis`，`mysql`，`mogu-gateway`，`mogu-sms`，`mogu-picture`， `mogu-web`, `mogu-admin`
+`nacos`，`nginx`，`rabbitmq`， `redis`，`mysql`，`hanying-gateway`，`hanying-sms`，`hanying-picture`， `hanying-web`, `hanying-admin`
 
 其它的服务都可以不启动，也不影正常使用，可以根据自身服务器配置来启动
 
-最低配置：1核2G 【[需开启虚拟内存](http://moguit.cn/#/info?blogOid=96)】
+最低配置：1核2G 【[需开启虚拟内存](http://hanyingit.cn/#/info?blogOid=96)】
 
 推荐配置：2核4G 【双十二特惠】
 
@@ -126,7 +126,7 @@
 - 引入**RabbitMQ** 消息队列，用于邮件发送、更新 **Redis** 和 **Solr**
 - 引入**JustAuth** 第三方登录开源库，支持 **Gitee**、**Github** 账号登录。
 - 引入**ElasticSearch** 和 **Solr** 作为全文检索服务，并支持可插拔配置
-- 引入**Github Actions** 工作流，完成蘑菇博客的持续集成、持续部署。
+- 引入**Github Actions** 工作流，完成应寒博客的持续集成、持续部署。
 - 引入七牛云对象存储，同时支持本地文件存储
 - 引入 **RBAC** 权限管理设计，灵活的权限控制，按钮级别的细粒度权限控制，满足绝大部分的权限需求
 - 引入 **Zipkin** 链路追踪，聚合各业务系统调用延迟数据，可以一眼看出延迟高的服务
@@ -135,46 +135,46 @@
 - 采用自研的评论模块，实现评论邮件通知
 - 采用 **Nacos** 作为服务发现和配置中心，轻松完成项目的配置的维护
 - 采用 **Sentinel** 流量控制框架，通过配置再也不怕网站被爆破
-- 采用[uniapp](https://uniapp.dcloud.io/) 和[ColorUi](https://github.com/weilanwl/ColorUI) 完成蘑菇博客的移动端门户页面搭建
+- 采用[uniapp](https://uniapp.dcloud.io/) 和[ColorUi](https://github.com/weilanwl/ColorUI) 完成应寒博客的移动端门户页面搭建
 - 支持多种文本编辑器，**Markdown** 编辑器([Vditor](https://github.com/Vanessa219/vditor))和富文本编辑器([CKEditor](https://github.com/ckeditor/ckeditor4))随心切换
-- 采用 **ElasticStack**【**ElasticSearch** + **Beats** + **Kibana** + **Logstash**】[搭建蘑菇博客日志收集](https://gitee.com/moxi159753/LearningNotes/tree/master/ElasticStack/6_%E4%BD%BF%E7%94%A8ELK%E6%90%AD%E5%BB%BA%E8%98%91%E8%8F%87%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86)
-- 采用 **Docker Compose** 完成容器编排，**Portainer** 实现容器可视化，支持[一键部署线上环境](http://www.moguit.cn/#/info?blogOid=565)
+- 采用 **ElasticStack**【**ElasticSearch** + **Beats** + **Kibana** + **Logstash**】[搭建应寒博客日志收集](https://gitee.com/moxi159753/LearningNotes/tree/master/ElasticStack/6_%E4%BD%BF%E7%94%A8ELK%E6%90%AD%E5%BB%BA%E8%98%91%E8%8F%87%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86)
+- 采用 **Docker Compose** 完成容器编排，**Portainer** 实现容器可视化，支持[一键部署线上环境](http://www.hanyingit.cn/#/info?blogOid=565)
 
 ## 项目文档
 
-文档地址：http://moxi159753.gitee.io/mogu_blog_doc
+文档地址：http://moxi159753.gitee.io/hanying_blog_doc
 
-备用文档地址：http://doc.moguit.cn
+备用文档地址：http://doc.hanyingit.cn
 
 ## 项目地址
 
 目前项目托管在 **Gitee** 和 **Github** 平台上中，欢迎大家 **Star** 和 **Fork** 支持~
 
-- Gitee地址：https://gitee.com/moxi159753/mogu_blog_v2
-- Github地址：https://github.com/moxi624/mogu_blog_v2
+- Gitee地址：https://gitee.com/moxi159753/hanying_blog_v2
+- Github地址：https://github.com/moxi624/hanying_blog_v2
 
 ## 项目目录
 
 - MoguBlog 是一款基于最新技术开发的多人在线、简洁的博客系统。
-- mogu_admin: 提供admin端API接口服务；
-- mogu_web：提供web端API接口服务；
-- mogu_eureka： 服务发现和注册【注: Nacos分支没有该目录，用Nacos作为服务发现组件】
-- mogu_picture： 图片服务，用于图片上传和下载；
-- mogu_sms：消息服务，用于更新ElasticSearch、Solr索引、邮件和短信发送
-- mogu_monitor：监控服务，集成SpringBootAdmin用于管理和监控SpringBoot应用程序
-- mogu_spider：爬虫服务`（目前还未完善）`
-- mogu_gateway：网关服务`（目前还未完善）`
-- mogu_zipkin：链路追踪服务，`目前使用java -jar的方式启动`
-- mogu_search：搜索服务，ElasticSearch和Solr作为全文检索工具，[支持可插拔配置](http://moguit.cn/#/info?blogUid=4042b4f4088e4e37e95d9fc75d97298b)，默认使用SQL搜索
-- mogu_commons：公共模块，主要用于存放Entity实体类、Feign远程调用接口、以及公共config配置
-- mogu_utils: 是常用工具类；
-- mogu_xo: 是存放 VO、Service，Dao层的
-- mogu_base: 是一些Base基类
-- doc: 是蘑菇博客的一些文档和数据库文件
-- vue_mogu_admin：VUE的后台管理页面
-- vue_mogu_web：VUE的门户网站
-- uniapp_mogu_web：基于uniapp 和 colorUi 的蘑菇博客移动端门户页面（Nacos分支）
-- nuxt_mogu_web：Nuxt的门户网站，主要用于支持SEO搜索引擎优化`（目前还未完善）`
+- hanying_admin: 提供admin端API接口服务；
+- hanying_web：提供web端API接口服务；
+- hanying_eureka： 服务发现和注册【注: Nacos分支没有该目录，用Nacos作为服务发现组件】
+- hanying_picture： 图片服务，用于图片上传和下载；
+- hanying_sms：消息服务，用于更新ElasticSearch、Solr索引、邮件和短信发送
+- hanying_monitor：监控服务，集成SpringBootAdmin用于管理和监控SpringBoot应用程序
+- hanying_spider：爬虫服务`（目前还未完善）`
+- hanying_gateway：网关服务`（目前还未完善）`
+- hanying_zipkin：链路追踪服务，`目前使用java -jar的方式启动`
+- hanying_search：搜索服务，ElasticSearch和Solr作为全文检索工具，[支持可插拔配置](http://hanyingit.cn/#/info?blogUid=4042b4f4088e4e37e95d9fc75d97298b)，默认使用SQL搜索
+- hanying_commons：公共模块，主要用于存放Entity实体类、Feign远程调用接口、以及公共config配置
+- hanying_utils: 是常用工具类；
+- hanying_xo: 是存放 VO、Service，Dao层的
+- hanying_base: 是一些Base基类
+- doc: 是应寒博客的一些文档和数据库文件
+- vue_hanying_admin：VUE的后台管理页面
+- vue_hanying_web：VUE的门户网站
+- uniapp_hanying_web：基于uniapp 和 colorUi 的应寒博客移动端门户页面（Nacos分支）
+- nuxt_hanying_web：Nuxt的门户网站，主要用于支持SEO搜索引擎优化`（目前还未完善）`
 
 ## 技术选型
 
@@ -182,7 +182,7 @@
 
 ![image text](./doc/images/gitee/server.jpg)
 
->  蘑菇博客系统架构图，使用 [Processon](https://www.processon.com/i/5e380df1e4b05b335ffa81e9) 在线绘制
+>  应寒博客系统架构图，使用 [Processon](https://www.processon.com/i/5e380df1e4b05b335ffa81e9) 在线绘制
 
 ### 后端技术
 
@@ -247,67 +247,67 @@
 
 ## 快速开始
 
-### [推荐] Windows+VMware一键搭建蘑菇博客本地开发环境
+### [推荐] Windows+VMware一键搭建应寒博客本地开发环境
 
-参考 [Windows+VMware一键搭建蘑菇博客本地开发环境](http://www.moguit.cn/#/info?blogOid=583)，快速在 **Windows** 平台搭建蘑菇博客开发环境，将中间件安装在 **VMware** 中。
+参考 [Windows+VMware一键搭建应寒博客本地开发环境](http://www.hanyingit.cn/#/info?blogOid=583)，快速在 **Windows** 平台搭建应寒博客开发环境，将中间件安装在 **VMware** 中。
 
-### Windows环境下搭建蘑菇博客
+### Windows环境下搭建应寒博客
 
-参考 [window环境下配置蘑菇博客环境](http://www.moguit.cn/#/info?blogUid=082ca226cf2e4103b0ffa6e6c13d7b14)，能够在 **Windows**下搭建蘑菇博客的开发环境，同时将**所有组件**安装在**Windows** 环境中
+参考 [window环境下配置应寒博客环境](http://www.hanyingit.cn/#/info?blogUid=082ca226cf2e4103b0ffa6e6c13d7b14)，能够在 **Windows**下搭建应寒博客的开发环境，同时将**所有组件**安装在**Windows** 环境中
 
-### [推荐] DockerCompose一键部署蘑菇博客(Nacos版)
+### [推荐] DockerCompose一键部署应寒博客(Nacos版)
 
-参考 [DockerCompose一键部署蘑菇博客(Nacos版)](http://www.moguit.cn/#/info?blogOid=565) ，在 **Linux** 服务器中，一键完成蘑菇博客项目的部署
+参考 [DockerCompose一键部署应寒博客(Nacos版)](http://www.hanyingit.cn/#/info?blogOid=565) ，在 **Linux** 服务器中，一键完成应寒博客项目的部署
 
-### Docker搭建蘑菇博客
+### Docker搭建应寒博客
 
-参考 [使用Docker快速搭建蘑菇博客(Eureka分支)](http://www.moguit.cn/#/info?blogUid=ab8377106a0d4b9f8d66131e4312c69e)，快速在Linux服务器中搭建好博客运行环境，通过发布 **Jar** 包的方式完成部署
+参考 [使用Docker快速搭建应寒博客(Eureka分支)](http://www.hanyingit.cn/#/info?blogUid=ab8377106a0d4b9f8d66131e4312c69e)，快速在Linux服务器中搭建好博客运行环境，通过发布 **Jar** 包的方式完成部署
 
-参考 [使用Docker快速搭建蘑菇博客(Nacos分支)](http://moguit.cn/#/info?blogUid=8100dcb585fff77e3fa25eed50e3708e)，快速在Linux服务器中搭建好博客运行环境，通过发布 **Jar** 包的方式完成部署
+参考 [使用Docker快速搭建应寒博客(Nacos分支)](http://hanyingit.cn/#/info?blogUid=8100dcb585fff77e3fa25eed50e3708e)，快速在Linux服务器中搭建好博客运行环境，通过发布 **Jar** 包的方式完成部署
 
-### 蘑菇博客部署到云服务器
+### 应寒博客部署到云服务器
 
-【**推荐**】参考[IDEA发布蘑菇博客Docker镜像到云服务器(适用于DockerCompose部署)](http://moguit.cn/#/info?blogOid=588)，在你修改Nacos分支博客源码后，将重新制作镜像部署到云服务器，然后通过DockerCompose进行启动。
+【**推荐**】参考[IDEA发布应寒博客Docker镜像到云服务器(适用于DockerCompose部署)](http://hanyingit.cn/#/info?blogOid=588)，在你修改Nacos分支博客源码后，将重新制作镜像部署到云服务器，然后通过DockerCompose进行启动。
 
-参考[蘑菇博客如何部署到阿里云服务器(Eureka分支)](http://www.moguit.cn/#/info?blogUid=89defe3f4a3f317cba9aa0cdb9ff879e)，在你修改Eureka分支博客源码后将项目打包部署到云服务器
+参考[应寒博客如何部署到阿里云服务器(Eureka分支)](http://www.hanyingit.cn/#/info?blogUid=89defe3f4a3f317cba9aa0cdb9ff879e)，在你修改Eureka分支博客源码后将项目打包部署到云服务器
 
-参考[蘑菇博客如何部署到阿里云服务器(Nacos分支)](http://www.moguit.cn/#/info?blogUid=ecde4ce178bdc1a241e9f9ddd9052013)，在你修改Nacos分支博客源码后将项目打包部署到云服务器
+参考[应寒博客如何部署到阿里云服务器(Nacos分支)](http://www.hanyingit.cn/#/info?blogUid=ecde4ce178bdc1a241e9f9ddd9052013)，在你修改Nacos分支博客源码后将项目打包部署到云服务器
 
-### 使用Github Actions完成蘑菇博客持续集成
+### 使用Github Actions完成应寒博客持续集成
 
-参考 [使用Github Action完成蘑菇博客持续集成](http://moguit.cn/#/info?blogUid=0762bfb392c2cf0a94c8a7934fe46f8f) ，在你提交一个 **push** 请求后，通过 **Github Actions** 能够完成蘑菇博客自动化 编译、打包、部署等操作。
+参考 [使用Github Action完成应寒博客持续集成](http://hanyingit.cn/#/info?blogUid=0762bfb392c2cf0a94c8a7934fe46f8f) ，在你提交一个 **push** 请求后，通过 **Github Actions** 能够完成应寒博客自动化 编译、打包、部署等操作。
 
 ### 切换搜索模式
 
-参考[蘑菇博客切换搜索模式](http://moguit.cn/#/info?blogUid=4042b4f4088e4e37e95d9fc75d97298b)，完成蘑菇博客的搜索引擎切换，目前支持 **Solr**、**ElasticSearch**、**SQL** 的方式
+参考[应寒博客切换搜索模式](http://hanyingit.cn/#/info?blogUid=4042b4f4088e4e37e95d9fc75d97298b)，完成应寒博客的搜索引擎切换，目前支持 **Solr**、**ElasticSearch**、**SQL** 的方式
 
 ### 配置七牛云对象存储
 
-参考[蘑菇博客切换七牛云存储](http://moguit.cn/#/info?blogUid=735ed389c4ad1efd321fed9ac58e646b)，配置文件的七牛云对象存储，及本地文件存储
+参考[应寒博客切换七牛云存储](http://hanyingit.cn/#/info?blogUid=735ed389c4ad1efd321fed9ac58e646b)，配置文件的七牛云对象存储，及本地文件存储
 
-### 使用Zipkin搭建蘑菇博客链路追踪
+### 使用Zipkin搭建应寒博客链路追踪
 
-参考[使用Zipkin搭建蘑菇博客链路追踪](http://moguit.cn/#/info?blogUid=35bd93cabc08611c7f74ce4564753ef9)，通过聚合各业务系统调用延迟数据，达到链路调用监控跟踪，快速定位其中延迟高的服务
+参考[使用Zipkin搭建应寒博客链路追踪](http://hanyingit.cn/#/info?blogUid=35bd93cabc08611c7f74ce4564753ef9)，通过聚合各业务系统调用延迟数据，达到链路调用监控跟踪，快速定位其中延迟高的服务
 
-### 使用Nacos搭建蘑菇博客服务注册和配置中心
+### 使用Nacos搭建应寒博客服务注册和配置中心
 
-参考[蘑菇博客Nacos部署指南](http://www.moguit.cn/#/info?blogUid=8dc52bd61e36fa56cfc7699815375572)，搭建蘑菇博客的服务注册和配置中心
+参考[应寒博客Nacos部署指南](http://www.hanyingit.cn/#/info?blogUid=8dc52bd61e36fa56cfc7699815375572)，搭建应寒博客的服务注册和配置中心
 
-### 使用Sentinel搭建蘑菇博客流量控制
+### 使用Sentinel搭建应寒博客流量控制
 
-参考[蘑菇博客Sentinel安装指南](http://www.moguit.cn/#/info?blogUid=7135efc7f536769efd0d0483c687ba07)，**Sentinel** 被称为分布式系统的流量防卫兵，相当于Hystrix
+参考[应寒博客Sentinel安装指南](http://www.hanyingit.cn/#/info?blogUid=7135efc7f536769efd0d0483c687ba07)，**Sentinel** 被称为分布式系统的流量防卫兵，相当于Hystrix
 
-### 蘑菇博客小程序发布
+### 应寒博客小程序发布
 
-参考[蘑菇博客QQ小程序发布指南](http://www.moguit.cn/#/info?blogUid=80d3eae77c16cea10e119b9f1a1da4c8)，完成蘑菇博客 **uniapp** 移动端的启动和发布
+参考[应寒博客QQ小程序发布指南](http://www.hanyingit.cn/#/info?blogUid=80d3eae77c16cea10e119b9f1a1da4c8)，完成应寒博客 **uniapp** 移动端的启动和发布
 
-### 蘑菇博客扩展新的功能和页面
+### 应寒博客扩展新的功能和页面
 
-参考[蘑菇博客如何扩展新的功能和页面](http://moguit.cn/#/info?blogUid=4eb7694c58cf8205885b1e8565b1a94e)，在蘑菇博客现有架构基础上，开发自己需要的页面。
+参考[应寒博客如何扩展新的功能和页面](http://hanyingit.cn/#/info?blogUid=4eb7694c58cf8205885b1e8565b1a94e)，在应寒博客现有架构基础上，开发自己需要的页面。
 
-###  使用ELK搭建蘑菇博客日志收集
+###  使用ELK搭建应寒博客日志收集
 
-参考[搭建蘑菇博客日志收集](https://gitee.com/moxi159753/LearningNotes/tree/master/ElasticStack/6_%E4%BD%BF%E7%94%A8ELK%E6%90%AD%E5%BB%BA%E8%98%91%E8%8F%87%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86)，使用 **Docker** 快速搭建 **ELK** 环境用于蘑菇博客日志收集
+参考[搭建应寒博客日志收集](https://gitee.com/moxi159753/LearningNotes/tree/master/ElasticStack/6_%E4%BD%BF%E7%94%A8ELK%E6%90%AD%E5%BB%BA%E8%98%91%E8%8F%87%E5%8D%9A%E5%AE%A2%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86)，使用 **Docker** 快速搭建 **ELK** 环境用于应寒博客日志收集
 
 ## 环境搭建
 
@@ -343,9 +343,9 @@
 
 ## 致谢
 
-**蘑菇博客**起初参考了很多**开源项目**的**解决方案**，**开源不易，感谢分享**
+**应寒博客**起初参考了很多**开源项目**的**解决方案**，**开源不易，感谢分享**
 
-- [<img src="./doc/images/gitee/jetbrains.png" width="60" />](https://www.jetbrains.com/?from=mogu_blog_v2)感谢 **[jetbrains](https://www.jetbrains.com/?from=mogu_blog_v2)** 提供的开源License 
+- [<img src="./doc/images/gitee/jetbrains.png" width="60" />](https://www.jetbrains.com/?from=hanying_blog_v2)感谢 **[jetbrains](https://www.jetbrains.com/?from=hanying_blog_v2)** 提供的开源License 
 
 - 感谢**杨青小姐姐**的博客模板：[http://www.yangqq.com/](http://www.yangqq.com/)
 - 感谢**PanJiaChen**的Vue后台管理模板：[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
@@ -361,15 +361,15 @@
 
 ## 关注&交流
 
-为了方便小伙伴们沟通交流，我创建了QQ群 (**加群备注**：`蘑菇博客`) <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=soh24RYi"><img border="0" src="./doc/images/qq/group.png" alt="蘑菇博客交流群" title="蘑菇博客交流群"></a>，目前项目还存在很多不足之处，欢迎各位老哥进群进行技术交流，为了防止广告进入，希望加群的时候能添加备注，谢谢~
+为了方便小伙伴们沟通交流，我创建了QQ群 (**加群备注**：`应寒博客`) <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=soh24RYi"><img border="0" src="./doc/images/qq/group.png" alt="应寒博客交流群" title="应寒博客交流群"></a>，目前项目还存在很多不足之处，欢迎各位老哥进群进行技术交流，为了防止广告进入，希望加群的时候能添加备注，谢谢~
 
-|         ~~QQ群（备注：`蘑菇博客`）【群满】~~          |            QQ群（备注：`蘑菇博客`）【推荐】            | QQ群（备注：`蘑菇博客`）                               |
+|         ~~QQ群（备注：`应寒博客`）【群满】~~          |            QQ群（备注：`应寒博客`）【推荐】            | QQ群（备注：`应寒博客`）                               |
 | :---------------------------------------------------: | :----------------------------------------------------: | ------------------------------------------------------ |
 | <img src="./doc/images/qq/qqGroup.png" width="200" /> | <img src="./doc/images/qq/qqGroup2.png" width="200" /> | <img src="./doc/images/qq/qqGroup3.png" width="200" /> |
 
 ## 未来计划
 
-- [x] 集成Github Actions，完成蘑菇博客持续集成服务
+- [x] 集成Github Actions，完成应寒博客持续集成服务
 - [x] 门户网站增加登录页面
 - [x] 支持第三方登录
 - [x] 集成ElasticSearch和Solr
@@ -385,28 +385,28 @@
 - [x] 资源管理页面集成网盘管理
 - [x] 新建Nacos分支，用于替换Eureka作为服务发现组件和配置中心
 - [x] 使用Sentinel做服务限流和熔断
-- [x] 增加蘑菇博客小程序项目 uniapp_mogu_web，基于[ColorUI](https://github.com/weilanwl/ColorUI) 和 [Uniapp](https://uniapp.dcloud.io/)
+- [x] 增加应寒博客小程序项目 uniapp_hanying_web，基于[ColorUI](https://github.com/weilanwl/ColorUI) 和 [Uniapp](https://uniapp.dcloud.io/)
 - [x] 富文本编辑器和Markdown编辑器任意切换
-- [x] 使用ELK搭建[蘑菇博客日志收集功能](http://www.moguit.cn/#/info?blogUid=fd9ab58588d93ef792ec72a359a09f6c)
-- [x] 使用Minio [搭建对象存储服务](http://www.moguit.cn/#/info?blogUid=a1058b2d030310e2c5d7b0584e514f1f)
-- [x] 使用DockerCompose完成 [博客一键部署](http://www.moguit.cn/#/info?blogOid=565)
+- [x] 使用ELK搭建[应寒博客日志收集功能](http://www.hanyingit.cn/#/info?blogUid=fd9ab58588d93ef792ec72a359a09f6c)
+- [x] 使用Minio [搭建对象存储服务](http://www.hanyingit.cn/#/info?blogUid=a1058b2d030310e2c5d7b0584e514f1f)
+- [x] 使用DockerCompose完成 [博客一键部署](http://www.hanyingit.cn/#/info?blogOid=565)
 - [x] 使用Portainer对Docker镜像可视化管理
 - [x] 适配门户页面的移动端布局
 - [x] 完善网盘管理
 - [x] 增加更新记录
 - [x] 完善爬虫模块
 - [x] 完善网关模块
-- [ ] 增加K8S部署蘑菇博客教程
+- [ ] 增加K8S部署应寒博客教程
 - [ ] 增加大屏数据展示页面
 - [ ] 增加定时任务模块
 - [ ] 使用Freemark页面静态化技术对博客详情页静态化
-- [ ] 解决Nuxt_mogu_web中存在的问题，使博客能被搜索引擎收录
+- [ ] 解决Nuxt_hanying_web中存在的问题，使博客能被搜索引擎收录
 - [ ] 让原创文章能够同步到多平台，如：CSDN，掘金，博客园等
-- [ ] 增加博客迁移功能，让其它平台的博客，如：CSDN、博客园，WordPress能够同步到蘑菇博客中
+- [ ] 增加博客迁移功能，让其它平台的博客，如：CSDN、博客园，WordPress能够同步到应寒博客中
 
 ## 贡献代码
 
-开源项目离不开大家的支持，如果您有好的想法，遇到一些 **BUG** 并修复了，以及 [蘑菇博客文档](https://gitee.com/moxi159753/mogu_blog_doc) 上有错误的地方订正过来了，欢迎小伙伴们提交 **Pull Request** 参与开源贡献
+开源项目离不开大家的支持，如果您有好的想法，遇到一些 **BUG** 并修复了，以及 [应寒博客文档](https://gitee.com/moxi159753/hanying_blog_doc) 上有错误的地方订正过来了，欢迎小伙伴们提交 **Pull Request** 参与开源贡献
 
 1. **fork** 本项目到自己的 **repo**
 2. 把 **fork** 过去的项目也就是你仓库中的项目 **clone** 到你的本地
@@ -421,7 +421,7 @@
 
 ## 赞赏
 
-**服务器**和**域名**等服务的购买和续费都会**产生一定的费用**，为了**维持项目的正常运作**，如果觉得本项目**对您有帮助**的话，欢迎朋友能够**给予一些支持**，陌溪将用于**提升服务器配置**，感谢小伙伴们的支持（ **ps**: 小伙伴赞赏的时候可以备注一下下~）
+**服务器**和**域名**等服务的购买和续费都会**产生一定的费用**，为了**维持项目的正常运作**，如果觉得本项目**对您有帮助**的话，欢迎朋友能够**给予一些支持**，应寒将用于**提升服务器配置**，感谢小伙伴们的支持（ **ps**: 小伙伴赞赏的时候可以备注一下下~）
 
 |                       微信                       |                      支付宝                       |
 | :----------------------------------------------: | :-----------------------------------------------: |

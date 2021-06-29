@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '蘑菇博客 - 专注于技术分享的博客平台',
+    title: '应寒博客 - 专注于技术分享的博客平台',
     htmlAttrs: {
       lang: 'en'
     },
@@ -9,7 +9,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { hid: 'keywords-h', name: 'keywords', content: '蘑菇博客,蘑菇社区,蘑菇技术社区,,蘑菇IT社区,IT社区,技术社区,Java技术分享,Spring教程,开发者社区' },
+      { hid: 'keywords-h', name: 'keywords', content: '应寒博客,应寒社区,应寒技术社区,,应寒IT社区,IT社区,技术社区,Java技术分享,Spring教程,开发者社区' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -74,7 +74,7 @@ export default {
   },
   proxy:{
     '/api/':{
-      target:'http://localhost:8607/mogu-web', //代理转发的地址
+      target:'http://localhost:8607/hanying-web', //代理转发的地址
       changeOrigin:true, //
       pathRewrite:{
         '^/api':''//将 api开头的路径替换为''

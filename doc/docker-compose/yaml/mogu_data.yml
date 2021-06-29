@@ -1,18 +1,18 @@
 version: '3'
 services:
   #授权服务
-  mogu_data:
-    image: registry.cn-shenzhen.aliyuncs.com/mogublog/nginx
-    container_name: mogu_data
+  hanying_data:
+    image: registry.cn-shenzhen.aliyuncs.com/hyblog/nginx
+    container_name: hanying_data
     restart: always
     ports:
       - 80:80  
       - 8600:8600
     networks:
-      - mogu
+      - hanying
     volumes:
-      - ../data/mogu_data/:/home/mogu_blog/mogu_data/
-      - ../config/mogu_data.conf:/etc/nginx/conf.d/default.conf
+      - ../data/hanying_data/:/home/hanying_blog/hanying_data/
+      - ../config/hanying_data.conf:/etc/nginx/conf.d/default.conf
 networks:
-  mogu:
+  hanying:
     external: true

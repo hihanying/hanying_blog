@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'MoGuGit',
+  name: 'Git',
   data() {
     return {
       url: process.env.BLOG_WEB_URL

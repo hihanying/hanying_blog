@@ -63,57 +63,57 @@ export default {
         {
           uid: '123',
           name: '123.jpg',
-          showUrl: 'http://image.moguit.cn/1562679487171.jpg',
-          url: 'http://image.moguit.cn/1562679487171.jpg',
-          thumbUrl: 'http://image.moguit.cn/1562679487171.jpg',
+          showUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
+          url: 'http://image.hanyingit.cn/1562679487171.jpg',
+          thumbUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
           suffix: 'http://www.baidu.com'
         },
         {
           uid: '123',
           name: '123.jpg',
           showUrl: 'http://localhost:8600/blog/admin/jpg/2020/3/24/1585014845954.jpg',
-          url: 'http://image.moguit.cn/1562679487171.jpg',
-          thumbUrl: 'http://image.moguit.cn/1562679487171.jpg',
+          url: 'http://image.hanyingit.cn/1562679487171.jpg',
+          thumbUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
           suffix: 'http://www.baidu.com'
         },
         {
           uid: '123',
           name: '123.jpg',
           showUrl: 'http://localhost:8600/blog/admin/png/2020/4/8/1586330866122.png',
-          url: 'http://image.moguit.cn/1562679487171.jpg',
-          thumbUrl: 'http://image.moguit.cn/1562679487171.jpg',
+          url: 'http://image.hanyingit.cn/1562679487171.jpg',
+          thumbUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
           suffix: 'http://www.baidu.com'
         },
         {
           uid: '123',
           name: '123.jpg',
-          showUrl: 'http://image.moguit.cn/1562679487171.jpg',
-          url: 'http://image.moguit.cn/1562679487171.jpg',
-          thumbUrl: 'http://image.moguit.cn/1562679487171.jpg',
+          showUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
+          url: 'http://image.hanyingit.cn/1562679487171.jpg',
+          thumbUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
           suffix: 'http://www.baidu.com'
         },
         {
           uid: '123',
           name: '123.jpg',
-          showUrl: 'http://image.moguit.cn/1562679487171.jpg',
-          url: 'http://image.moguit.cn/1562679487171.jpg',
-          thumbUrl: 'http://image.moguit.cn/1562679487171.jpg',
+          showUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
+          url: 'http://image.hanyingit.cn/1562679487171.jpg',
+          thumbUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
           suffix: 'http://www.baidu.com'
         },
         {
           uid: '123',
           name: '123.jpg',
-          showUrl: 'http://image.moguit.cn/1562679487171.jpg',
-          url: 'http://image.moguit.cn/1562679487171.jpg',
-          thumbUrl: 'http://image.moguit.cn/1562679487171.jpg',
+          showUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
+          url: 'http://image.hanyingit.cn/1562679487171.jpg',
+          thumbUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
           suffix: 'http://www.baidu.com'
         },
         {
           uid: '123',
           name: '123.jpg',
-          showUrl: 'http://image.moguit.cn/1562679487171.jpg',
-          url: 'http://image.moguit.cn/1562679487171.jpg',
-          thumbUrl: 'http://image.moguit.cn/1562679487171.jpg',
+          showUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
+          url: 'http://image.hanyingit.cn/1562679487171.jpg',
+          thumbUrl: 'http://image.hanyingit.cn/1562679487171.jpg',
           suffix: 'http://www.baidu.com'
         }
       ]

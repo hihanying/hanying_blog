@@ -1,4 +1,4 @@
-#name: mogu_master CI/CD/master
+#name: hanying_master CI/CD/master
 #
 #on:
 #  push:
@@ -28,9 +28,9 @@
 #        ls -l ~/.ssh/
 #    - name: Download config file and replace
 #      run: |
-#        git clone git@github.com:moxi624/mogu_prod_configuration.git
-#        mv -f ./mogu_prod_configuration/config/vue_mogu_admin/prod.env.js ./vue_mogu_admin/config/prod.env.js
-#        mv -f ./mogu_prod_configuration/config/vue_mogu_web/prod.env.js ./vue_mogu_web/config/prod.env.js
+#        git clone git@github.com:moxi624/hanying_prod_configuration.git
+#        mv -f ./hanying_prod_configuration/config/vue_hanying_admin/prod.env.js ./vue_hanying_admin/config/prod.env.js
+#        mv -f ./hanying_prod_configuration/config/vue_hanying_web/prod.env.js ./vue_hanying_web/config/prod.env.js
 #    - name: Build Java jar
 #      run: |
 #        mvn clean install
@@ -38,26 +38,26 @@
 #      uses: actions/setup-node@v1
 #      with:
 #        node-version: 12.x
-#    - name: Build vue_mogu_admin and vue_mogu_web
+#    - name: Build vue_hanying_admin and vue_hanying_web
 #      run: |
-#        cd ./vue_mogu_admin
+#        cd ./vue_hanying_admin
 #        npm install
 #        npm run build
 #        cd ..
-#        cd ./vue_mogu_web
+#        cd ./vue_hanying_web
 #        npm install
 #        npm run build
 #        cd ..
 #    - name: Move files and compress
 #      run: |
 #        mkdir -p transfer_files
-#        mv ./mogu_admin/target/mogu_admin-0.0.1-SNAPSHOT.jar ./transfer_files/mogu_admin-0.0.1-SNAPSHOT.jar
-#        mv ./mogu_sms/target/mogu_sms-0.0.1-SNAPSHOT.jar ./transfer_files/mogu_sms-0.0.1-SNAPSHOT.jar
-#        mv ./mogu_picture/target/mogu_picture-0.0.1-SNAPSHOT.jar ./transfer_files/mogu_picture-0.0.1-SNAPSHOT.jar
-#        mv ./mogu_web/target/mogu_web-0.0.1-SNAPSHOT.jar ./transfer_files/mogu_web-0.0.1-SNAPSHOT.jar
-#        mv ./mogu_search/target/mogu_search-0.0.1-SNAPSHOT.jar ./transfer_files/mogu_search-0.0.1-SNAPSHOT.jar
-#        mv ./vue_mogu_web/dist ./transfer_files/web_dist
-#        mv ./vue_mogu_admin/dist ./transfer_files/admin_dist
+#        mv ./hanying_admin/target/hanying_admin-0.0.1-SNAPSHOT.jar ./transfer_files/hanying_admin-0.0.1-SNAPSHOT.jar
+#        mv ./hanying_sms/target/hanying_sms-0.0.1-SNAPSHOT.jar ./transfer_files/hanying_sms-0.0.1-SNAPSHOT.jar
+#        mv ./hanying_picture/target/hanying_picture-0.0.1-SNAPSHOT.jar ./transfer_files/hanying_picture-0.0.1-SNAPSHOT.jar
+#        mv ./hanying_web/target/hanying_web-0.0.1-SNAPSHOT.jar ./transfer_files/hanying_web-0.0.1-SNAPSHOT.jar
+#        mv ./hanying_search/target/hanying_search-0.0.1-SNAPSHOT.jar ./transfer_files/hanying_search-0.0.1-SNAPSHOT.jar
+#        mv ./vue_hanying_web/dist ./transfer_files/web_dist
+#        mv ./vue_hanying_admin/dist ./transfer_files/admin_dist
 #        tar -zcvf  transfer_files.tar.gz transfer_files/
 #    - name: Scp file to aliyun
 #      uses: appleboy/scp-action@master
@@ -79,102 +79,102 @@
 #          cd /home
 #          tar -zxvf /home/transfer_files.tar.gz
 #
-#          echo "################# mogu_admin moving #################"
+#          echo "################# hanying_admin moving #################"
 #
-#          if [ -f "/home/mogu_blog/mogu_admin/mogu_admin-0.0.1-SNAPSHOT.jar.bak" ];then
-#            echo "mogu_admin.jar.bak exists and is being deleted"
-#            rm -f /home/mogu_blog/mogu_admin/mogu_admin-0.0.1-SNAPSHOT.jar.bak
+#          if [ -f "/home/hanying_blog/hanying_admin/hanying_admin-0.0.1-SNAPSHOT.jar.bak" ];then
+#            echo "hanying_admin.jar.bak exists and is being deleted"
+#            rm -f /home/hanying_blog/hanying_admin/hanying_admin-0.0.1-SNAPSHOT.jar.bak
 #          fi
-#          if [ -f "/home/mogu_blog/mogu_admin/mogu_admin-0.0.1-SNAPSHOT.jar" ];then
-#            echo "mogu_admin.jar exists and is being backup"
-#            mv /home/mogu_blog/mogu_admin/mogu_admin-0.0.1-SNAPSHOT.jar /home/mogu_blog/mogu_admin/mogu_admin-0.0.1-SNAPSHOT.jar.bak
+#          if [ -f "/home/hanying_blog/hanying_admin/hanying_admin-0.0.1-SNAPSHOT.jar" ];then
+#            echo "hanying_admin.jar exists and is being backup"
+#            mv /home/hanying_blog/hanying_admin/hanying_admin-0.0.1-SNAPSHOT.jar /home/hanying_blog/hanying_admin/hanying_admin-0.0.1-SNAPSHOT.jar.bak
 #          fi
-#          mv /home/transfer_files/mogu_admin-0.0.1-SNAPSHOT.jar /home/mogu_blog/mogu_admin/mogu_admin-0.0.1-SNAPSHOT.jar
+#          mv /home/transfer_files/hanying_admin-0.0.1-SNAPSHOT.jar /home/hanying_blog/hanying_admin/hanying_admin-0.0.1-SNAPSHOT.jar
 #
 #
-#          echo "################# mogu_sms moving #################"
+#          echo "################# hanying_sms moving #################"
 #
-#          if [ -f "/home/mogu_blog/mogu_sms/mogu_sms-0.0.1-SNAPSHOT.jar.bak" ];then
-#            echo "mogu_sms.jar.bak exists and is being deleted"
-#            rm -f /home/mogu_blog/mogu_sms/mogu_sms-0.0.1-SNAPSHOT.jar.bak
+#          if [ -f "/home/hanying_blog/hanying_sms/hanying_sms-0.0.1-SNAPSHOT.jar.bak" ];then
+#            echo "hanying_sms.jar.bak exists and is being deleted"
+#            rm -f /home/hanying_blog/hanying_sms/hanying_sms-0.0.1-SNAPSHOT.jar.bak
 #          fi
-#          if [ -f "/home/mogu_blog/mogu_admin/mogu_admin-0.0.1-SNAPSHOT.jar" ];then
-#            echo "mogu_sms.jar exists and is being backup"
-#            mv /home/mogu_blog/mogu_sms/mogu_sms-0.0.1-SNAPSHOT.jar /home/mogu_blog/mogu_sms/mogu_sms-0.0.1-SNAPSHOT.jar.bak
+#          if [ -f "/home/hanying_blog/hanying_admin/hanying_admin-0.0.1-SNAPSHOT.jar" ];then
+#            echo "hanying_sms.jar exists and is being backup"
+#            mv /home/hanying_blog/hanying_sms/hanying_sms-0.0.1-SNAPSHOT.jar /home/hanying_blog/hanying_sms/hanying_sms-0.0.1-SNAPSHOT.jar.bak
 #          fi
-#          mv /home/transfer_files/mogu_sms-0.0.1-SNAPSHOT.jar /home/mogu_blog/mogu_sms/mogu_sms-0.0.1-SNAPSHOT.jar
+#          mv /home/transfer_files/hanying_sms-0.0.1-SNAPSHOT.jar /home/hanying_blog/hanying_sms/hanying_sms-0.0.1-SNAPSHOT.jar
 #
-#          echo "################# mogu_picture moving #################"
+#          echo "################# hanying_picture moving #################"
 #
-#          if [ -f "/home/mogu_blog/mogu_picture/mogu_picture-0.0.1-SNAPSHOT.jar.bak" ];then
-#            echo "mogu_picture.jar.bak exists and is being deleted"
-#            rm -f /home/mogu_blog/mogu_picture/mogu_picture-0.0.1-SNAPSHOT.jar.bak
+#          if [ -f "/home/hanying_blog/hanying_picture/hanying_picture-0.0.1-SNAPSHOT.jar.bak" ];then
+#            echo "hanying_picture.jar.bak exists and is being deleted"
+#            rm -f /home/hanying_blog/hanying_picture/hanying_picture-0.0.1-SNAPSHOT.jar.bak
 #          fi
-#          if [ -f "/home/mogu_blog/mogu_picture/mogu_picture-0.0.1-SNAPSHOT.jar" ];then
-#            echo "mogu_picture.jar exists and is being backup"
-#            mv /home/mogu_blog/mogu_picture/mogu_picture-0.0.1-SNAPSHOT.jar /home/mogu_blog/mogu_picture/mogu_picture-0.0.1-SNAPSHOT.jar.bak
+#          if [ -f "/home/hanying_blog/hanying_picture/hanying_picture-0.0.1-SNAPSHOT.jar" ];then
+#            echo "hanying_picture.jar exists and is being backup"
+#            mv /home/hanying_blog/hanying_picture/hanying_picture-0.0.1-SNAPSHOT.jar /home/hanying_blog/hanying_picture/hanying_picture-0.0.1-SNAPSHOT.jar.bak
 #          fi
-#          mv /home/transfer_files/mogu_picture-0.0.1-SNAPSHOT.jar /home/mogu_blog/mogu_picture/mogu_picture-0.0.1-SNAPSHOT.jar
+#          mv /home/transfer_files/hanying_picture-0.0.1-SNAPSHOT.jar /home/hanying_blog/hanying_picture/hanying_picture-0.0.1-SNAPSHOT.jar
 #
 #
-#          echo "################# mogu_web moving #################"
+#          echo "################# hanying_web moving #################"
 #
-#          if [ -f "/home/mogu_blog/mogu_web/mogu_web-0.0.1-SNAPSHOT.jar.bak" ];then
-#            echo "mogu_web.jar.bak exists and is being deleted"
-#            rm -f /home/mogu_blog/mogu_web/mogu_web-0.0.1-SNAPSHOT.jar.bak
+#          if [ -f "/home/hanying_blog/hanying_web/hanying_web-0.0.1-SNAPSHOT.jar.bak" ];then
+#            echo "hanying_web.jar.bak exists and is being deleted"
+#            rm -f /home/hanying_blog/hanying_web/hanying_web-0.0.1-SNAPSHOT.jar.bak
 #          fi
-#          if [ -f "/home/mogu_blog/mogu_web/mogu_web-0.0.1-SNAPSHOT.jar" ];then
-#            echo "mogu_web.jar exists and is being backup"
-#            mv /home/mogu_blog/mogu_web/mogu_web-0.0.1-SNAPSHOT.jar /home/mogu_blog/mogu_web/mogu_web-0.0.1-SNAPSHOT.jar.bak
+#          if [ -f "/home/hanying_blog/hanying_web/hanying_web-0.0.1-SNAPSHOT.jar" ];then
+#            echo "hanying_web.jar exists and is being backup"
+#            mv /home/hanying_blog/hanying_web/hanying_web-0.0.1-SNAPSHOT.jar /home/hanying_blog/hanying_web/hanying_web-0.0.1-SNAPSHOT.jar.bak
 #          fi
-#          mv /home/transfer_files/mogu_web-0.0.1-SNAPSHOT.jar /home/mogu_blog/mogu_web/mogu_web-0.0.1-SNAPSHOT.jar
+#          mv /home/transfer_files/hanying_web-0.0.1-SNAPSHOT.jar /home/hanying_blog/hanying_web/hanying_web-0.0.1-SNAPSHOT.jar
 #
-#          echo "################# mogu_search moving #################"
+#          echo "################# hanying_search moving #################"
 #
-#          if [ -f "/home/mogu_blog/mogu_search/mogu_search-0.0.1-SNAPSHOT.jar.bak" ];then
-#            echo "mogu_search.jar.bak exists and is being deleted"
-#            rm -f /home/mogu_blog/mogu_search/mogu_search-0.0.1-SNAPSHOT.jar.bak
+#          if [ -f "/home/hanying_blog/hanying_search/hanying_search-0.0.1-SNAPSHOT.jar.bak" ];then
+#            echo "hanying_search.jar.bak exists and is being deleted"
+#            rm -f /home/hanying_blog/hanying_search/hanying_search-0.0.1-SNAPSHOT.jar.bak
 #          fi
-#          if [ -f "/home/mogu_blog/mogu_search/mogu_search-0.0.1-SNAPSHOT.jar" ];then
-#            echo "mogu_search.jar exists and is being backup"
-#            mv /home/mogu_blog/mogu_search/mogu_search-0.0.1-SNAPSHOT.jar /home/mogu_blog/mogu_search/mogu_search-0.0.1-SNAPSHOT.jar.bak
+#          if [ -f "/home/hanying_blog/hanying_search/hanying_search-0.0.1-SNAPSHOT.jar" ];then
+#            echo "hanying_search.jar exists and is being backup"
+#            mv /home/hanying_blog/hanying_search/hanying_search-0.0.1-SNAPSHOT.jar /home/hanying_blog/hanying_search/hanying_search-0.0.1-SNAPSHOT.jar.bak
 #          fi
-#          mv /home/transfer_files/mogu_search-0.0.1-SNAPSHOT.jar /home/mogu_blog/mogu_search/mogu_search-0.0.1-SNAPSHOT.jar
+#          mv /home/transfer_files/hanying_search-0.0.1-SNAPSHOT.jar /home/hanying_blog/hanying_search/hanying_search-0.0.1-SNAPSHOT.jar
 #
 #
-#          echo "################# vue_mogu_web moving #################"
+#          echo "################# vue_hanying_web moving #################"
 #
-#          if [ -d "/home/mogu_blog/vue_mogu_web/dist.bak/" ];then
-#            echo "vue_mogu_web dist.bak exists and is being deleted"
-#            cd /home/mogu_blog/vue_mogu_web
+#          if [ -d "/home/hanying_blog/vue_hanying_web/dist.bak/" ];then
+#            echo "vue_hanying_web dist.bak exists and is being deleted"
+#            cd /home/hanying_blog/vue_hanying_web
 #            rm -rf dist.bak/
 #          fi
-#          if [ -d "/home/mogu_blog/vue_mogu_web/dist/" ];then
-#            echo "vue_mogu_web dist exists and is being backup"
-#            mv /home/mogu_blog/vue_mogu_web/dist /home/mogu_blog/vue_mogu_web/dist.bak
+#          if [ -d "/home/hanying_blog/vue_hanying_web/dist/" ];then
+#            echo "vue_hanying_web dist exists and is being backup"
+#            mv /home/hanying_blog/vue_hanying_web/dist /home/hanying_blog/vue_hanying_web/dist.bak
 #          fi
-#          mv /home/transfer_files/web_dist /home/mogu_blog/vue_mogu_web/dist
+#          mv /home/transfer_files/web_dist /home/hanying_blog/vue_hanying_web/dist
 #
 #
-#          echo "################# vue_mogu_admin moving #################"
+#          echo "################# vue_hanying_admin moving #################"
 #
-#          if [ -d "/home/mogu_blog/vue_mogu_admin/dist.bak/" ];then
-#            echo "vue_mogu_admin dist.bak exists and is being deleted"
-#            cd /home/mogu_blog/vue_mogu_admin
+#          if [ -d "/home/hanying_blog/vue_hanying_admin/dist.bak/" ];then
+#            echo "vue_hanying_admin dist.bak exists and is being deleted"
+#            cd /home/hanying_blog/vue_hanying_admin
 #            rm -rf dist.bak/
 #          fi
-#          if [ -d "/home/mogu_blog/vue_mogu_admin/dist/" ];then
-#            echo "vue_mogu_admin dist exists and is being backup"
-#            mv /home/mogu_blog/vue_mogu_admin/dist /home/mogu_blog/vue_mogu_admin/dist.bak
+#          if [ -d "/home/hanying_blog/vue_hanying_admin/dist/" ];then
+#            echo "vue_hanying_admin dist exists and is being backup"
+#            mv /home/hanying_blog/vue_hanying_admin/dist /home/hanying_blog/vue_hanying_admin/dist.bak
 #          fi
-#          mv /home/transfer_files/admin_dist /home/mogu_blog/vue_mogu_admin/dist
+#          mv /home/transfer_files/admin_dist /home/hanying_blog/vue_hanying_admin/dist
 #
 #          echo "################# rm transfer_files.tar.gz #################"
 #          rm -rf /home/transfer_files.tar.gz
 #          echo "################# rm transfer_files #################"
 #          rm -rf /home/transfer_files
 #
-#    - name: Start mogu_picture
+#    - name: Start hanying_picture
 #      uses: appleboy/ssh-action@master
 #      with:
 #        host: ${{ secrets.DOCKER_IP }}
@@ -182,10 +182,10 @@
 #        password: ${{ secrets.DOCKER_PASSWORD }}
 #        port: ${{ secrets.DOCKER_PORT }}
 #        script: |
-#          cd /home/mogu_blog/mogu_picture/
+#          cd /home/hanying_blog/hanying_picture/
 #          ./shutdown.sh
 #          ./startup.sh
-#    - name: Start mogu_admin
+#    - name: Start hanying_admin
 #      uses: appleboy/ssh-action@master
 #      with:
 #        host: ${{ secrets.DOCKER_IP }}
@@ -193,10 +193,10 @@
 #        password: ${{ secrets.DOCKER_PASSWORD }}
 #        port: ${{ secrets.DOCKER_PORT }}
 #        script: |
-#          cd /home/mogu_blog/mogu_admin/
+#          cd /home/hanying_blog/hanying_admin/
 #          ./shutdown.sh
 #          ./startup.sh
-#    - name: Start mogu_sms
+#    - name: Start hanying_sms
 #      uses: appleboy/ssh-action@master
 #      with:
 #        host: ${{ secrets.DOCKER_IP }}
@@ -204,10 +204,10 @@
 #        password: ${{ secrets.DOCKER_PASSWORD }}
 #        port: ${{ secrets.DOCKER_PORT }}
 #        script: |
-#          cd /home/mogu_blog/mogu_sms/
+#          cd /home/hanying_blog/hanying_sms/
 #          ./shutdown.sh
 #          ./startup.sh
-#    - name: Start mogu_web
+#    - name: Start hanying_web
 #      uses: appleboy/ssh-action@master
 #      with:
 #        host: ${{ secrets.DOCKER_IP }}
@@ -215,6 +215,6 @@
 #        password: ${{ secrets.DOCKER_PASSWORD }}
 #        port: ${{ secrets.DOCKER_PORT }}
 #        script: |
-#          cd /home/mogu_blog/mogu_web/
+#          cd /home/hanying_blog/hanying_web/
 #          ./shutdown.sh
 #          ./startup.sh

@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: mogu-spider
+    name: hanying-spider
   cloud:
     nacos:
       username: nacos

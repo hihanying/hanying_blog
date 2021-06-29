@@ -1,7 +1,7 @@
 version: '3'
 services:
   elk:
-    image: registry.cn-shenzhen.aliyuncs.com/mogublog/elk
+    image: registry.cn-shenzhen.aliyuncs.com/hyblog/elk
     container_name: elk
     restart: "always"
     ports:
@@ -21,18 +21,18 @@ services:
       - ../config/elk/logstash/conf:/etc/logstash/conf.d
       - ../config/elk/kibana/kibana.yml:/opt/kibana/config/kibana.yml
     networks:
-      - mogu
+      - hanying
 
   filebeat:
-    image: registry.cn-shenzhen.aliyuncs.com/mogublog/filebeat
+    image: registry.cn-shenzhen.aliyuncs.com/hyblog/filebeat
     container_name: filebeat
     restart: always
     networks:
-      - mogu
+      - hanying
     volumes:
      - ../config/elk/filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml
      - ../log/elk/filebeat/:/opt/
      
 networks:
-  mogu:
+  hanying:
     external: true

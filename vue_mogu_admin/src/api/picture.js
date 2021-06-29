@@ -41,7 +41,7 @@ export function setCover(params) {
 }
 
 /**
- * 提交URL到 mogu-picture
+ * 提交URL到 hanying-picture
  * @param params
  * @returns {*}
  */

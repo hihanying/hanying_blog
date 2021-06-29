@@ -8,10 +8,10 @@
     "dumpEventTime": "2021-06-21T15:10:18Z",
     "dumpEventTimeStamp": "1624259418489",
     "processId": 33264,
-    "cwd": "D:\\my\\idea\\mogu_blog_v2\\nuxt-mogu_web_yunho",
+    "cwd": "D:\\my\\idea\\hanying_blog_v2\\nuxt-hanying_web_yunho",
     "commandLine": [
       "node",
-      "D:\\my\\idea\\mogu_blog_v2\\nuxt-mogu_web_yunho\\node_modules\\.bin\\\\..\\nuxt\\bin\\nuxt.js"
+      "D:\\my\\idea\\hanying_blog_v2\\nuxt-hanying_web_yunho\\node_modules\\.bin\\\\..\\nuxt\\bin\\nuxt.js"
     ],
     "nodejsVersion": "v12.10.0",
     "wordSize": 64,
@@ -363,7 +363,7 @@
   ],
   "environmentVariables": {
     "": "C:=C:\\",
-    "": "D:=D:\\my\\idea\\mogu_blog_v2\\nuxt-mogu_web_yunho",
+    "": "D:=D:\\my\\idea\\hanying_blog_v2\\nuxt-hanying_web_yunho",
     "ALLUSERSPROFILE": "C:\\ProgramData",
     "APPDATA": "C:\\Users\\Jason\\AppData\\Roaming",
     "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_22244_FUBQJXGWLEKGCVDH",
@@ -383,7 +383,7 @@
     "HOME": "C:\\Users\\Jason",
     "HOMEDRIVE": "C:",
     "HOMEPATH": "\\Users\\Jason",
-    "INIT_CWD": "D:\\my\\idea\\mogu_blog_v2\\nuxt-mogu_web_yunho",
+    "INIT_CWD": "D:\\my\\idea\\hanying_blog_v2\\nuxt-hanying_web_yunho",
     "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_201",
     "LANG": "zh_CN.UTF-8",
     "LOCALAPPDATA": "C:\\Users\\Jason\\AppData\\Local",
@@ -407,8 +407,8 @@
     "npm_lifecycle_event": "dev",
     "npm_lifecycle_script": "nuxt",
     "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
-    "npm_package_json": "D:\\my\\idea\\mogu_blog_v2\\nuxt-mogu_web_yunho\\package.json",
-    "npm_package_name": "mogu_blog",
+    "npm_package_json": "D:\\my\\idea\\hanying_blog_v2\\nuxt-hanying_web_yunho\\package.json",
+    "npm_package_name": "hanying_blog",
     "npm_package_version": "1.0.0",
     "NPM_PREFIX_NPM_CLI_JS": "C:\\Users\\Jason\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
     "NUMBER_OF_PROCESSORS": "8",
@@ -416,7 +416,7 @@
     "OneDriveConsumer": "C:\\Users\\Jason\\OneDrive",
     "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
     "OS": "Windows_NT",
-    "Path": "D:\\my\\idea\\mogu_blog_v2\\nuxt-mogu_web_yunho\\node_modules\\.bin;D:\\my\\idea\\mogu_blog_v2\\node_modules\\.bin;D:\\my\\idea\\node_modules\\.bin;D:\\my\\node_modules\\.bin;D:\\node_modules\\.bin;C:\\Users\\Jason\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;D:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\app\\client\\Jason\\product\\12.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Java\\jdk1.8.0_201\\bin;C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\bin;C:\\my\\apache-maven-3.5.0-bin\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\ZeroTier\\One\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\HashiCorp\\Vagrant\\bin;D:\\360安全浏览器下载\\nssm-2.24\\win64;D:\\Program Files (x86)\\NetSarang\\Xshell 5;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\Jason\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Jason\\AppData\\Roaming\\npm;D:\\Users\\Jason\\AppData\\Local\\Programs\\Microsoft VS Code\\bin",
+    "Path": "D:\\my\\idea\\hanying_blog_v2\\nuxt-hanying_web_yunho\\node_modules\\.bin;D:\\my\\idea\\hanying_blog_v2\\node_modules\\.bin;D:\\my\\idea\\node_modules\\.bin;D:\\my\\node_modules\\.bin;D:\\node_modules\\.bin;C:\\Users\\Jason\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;D:\\Program Files (x86)\\NetSarang\\Xftp 6\\;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\app\\client\\Jason\\product\\12.2.0\\client_1\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Java\\jdk1.8.0_201\\bin;C:\\Program Files\\Java\\jdk1.8.0_201\\jre\\bin;C:\\my\\apache-maven-3.5.0-bin\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\ZeroTier\\One\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\HashiCorp\\Vagrant\\bin;D:\\360安全浏览器下载\\nssm-2.24\\win64;D:\\Program Files (x86)\\NetSarang\\Xshell 5;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\Jason\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Jason\\AppData\\Roaming\\npm;D:\\Users\\Jason\\AppData\\Local\\Programs\\Microsoft VS Code\\bin",
     "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
     "PROCESSOR_ARCHITECTURE": "AMD64",
     "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
@@ -495,6 +495,6 @@
     "C:\\Windows\\system32\\wshbth.dll",
     "C:\\Windows\\system32\\NLAapi.dll",
     "C:\\Windows\\System32\\winrnr.dll",
-    "\\\\?\\D:\\my\\idea\\mogu_blog_v2\\nuxt-mogu_web_yunho\\node_modules\\node-sass\\vendor\\win32-x64-72\\binding.node"
+    "\\\\?\\D:\\my\\idea\\hanying_blog_v2\\nuxt-hanying_web_yunho\\node_modules\\node-sass\\vendor\\win32-x64-72\\binding.node"
   ]
 }

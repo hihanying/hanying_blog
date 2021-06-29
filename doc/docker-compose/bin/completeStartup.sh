@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo '=====开始安装蘑菇博客环境====='
+echo '=====开始安装应寒博客环境====='
 
 echo '=====开始运行mysql====='
 docker-compose -f ../yaml/mysql.yml up -d
@@ -21,8 +21,8 @@ docker-compose -f ../yaml/rabbitmq.yml up -d
 echo '=====开始运行redis====='
 docker-compose -f ../yaml/redis.yml up -d
 
-echo '=====开始部署mogu_data====='
-docker-compose -f ../yaml/mogu_data.yml up -d
+echo '=====开始部署hanying_data====='
+docker-compose -f ../yaml/hanying_data.yml up -d
 
 echo '=====开始运行zipkin====='
 docker-compose -f ../yaml/zipkin.yml up -d
@@ -37,26 +37,26 @@ echo '======================'
 echo '=====开始运行后台====='
 echo '======================'
 
-echo '=====开始运行mogu_monitor====='
-docker-compose -f ../yaml/mogu_gateway.yml up -d
+echo '=====开始运行hanying_monitor====='
+docker-compose -f ../yaml/hanying_gateway.yml up -d
 
-echo '=====开始运行mogu_admin====='
-docker-compose -f ../yaml/mogu_admin.yml up -d
+echo '=====开始运行hanying_admin====='
+docker-compose -f ../yaml/hanying_admin.yml up -d
 
-echo '=====开始运行mogu_picture====='
-docker-compose -f ../yaml/mogu_picture.yml up -d
+echo '=====开始运行hanying_picture====='
+docker-compose -f ../yaml/hanying_picture.yml up -d
 
-echo '=====开始运行mogu_sms====='
-docker-compose -f ../yaml/mogu_sms.yml up -d
+echo '=====开始运行hanying_sms====='
+docker-compose -f ../yaml/hanying_sms.yml up -d
 
-echo '=====开始运行mogu_web====='
-docker-compose -f ../yaml/mogu_web.yml up -d
+echo '=====开始运行hanying_web====='
+docker-compose -f ../yaml/hanying_web.yml up -d
 
-echo '=====开始运行mogu_search====='
-docker-compose -f ../yaml/mogu_search.yml up -d
+echo '=====开始运行hanying_search====='
+docker-compose -f ../yaml/hanying_search.yml up -d
 
-echo '=====开始运行mogu_monitor====='
-docker-compose -f ../yaml/mogu_monitor.yml up -d
+echo '=====开始运行hanying_monitor====='
+docker-compose -f ../yaml/hanying_monitor.yml up -d
 
 echo '执行完成 日志目录: ./log'
 
@@ -65,12 +65,12 @@ echo '======================'
 echo '=====开始运行前台====='
 echo '======================'
 
-echo '=====开始运行vue_mogu_admin====='
-docker-compose -f ../yaml/vue_mogu_admin.yml up -d
+echo '=====开始运行vue_hanying_admin====='
+docker-compose -f ../yaml/vue_hanying_admin.yml up -d
 
 
-echo '=====开始运行vue_mogu_web====='
-docker-compose -f ../yaml/vue_mogu_web.yml up -d
+echo '=====开始运行vue_hanying_web====='
+docker-compose -f ../yaml/vue_hanying_web.yml up -d
 
 echo '======================================================'
 echo '=====所有服务已经启动【请检查是否存在错误启动的】====='

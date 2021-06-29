@@ -1,8 +1,8 @@
 {
-    "name" : "陌溪教你学编程",
+    "name" : "应寒教你学编程",
     "appid" : "__UNI__CFAB3C1",
-    "description" : "蘑菇博客 - 专注于技术分享的博客平台",
-    "versionName" : "蘑菇博客V0.1",
+    "description" : "应寒博客 - 专注于技术分享的博客平台",
+    "versionName" : "应寒博客V0.1",
     "versionCode" : 1,
     "transformPx" : false,
     "app-plus" : {
@@ -63,8 +63,8 @@
         }
     },
     "h5" : {
-        "title" : "蘑菇博客",
-        "domain" : "uniapp.moguit.cn"
+        "title" : "应寒博客",
+        "domain" : "uniapp.hanyingit.cn"
     },
     "mp-qq" : {
         "appid" : "1110769790"
