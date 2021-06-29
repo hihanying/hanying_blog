@@ -1,6 +1,11 @@
 server:
   port: 8602
 
+#Data image url
+file:
+  upload:
+    path: E:/WorkSpace/MyCode/Java/Projects/Blog/mogu_blog/data
+
 spring:
   application:
     name: mogu-picture
