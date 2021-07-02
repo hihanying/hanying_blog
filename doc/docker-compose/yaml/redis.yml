@@ -1,12 +1,12 @@
 version: '3.1'
 services:
   redis:
-    image: registry.cn-shenzhen.aliyuncs.com/hyblog/redis
+    image: registry.cn-shenzhen.aliyuncs.com/mogublog/redis
     restart: always
     container_name: redis
     ports:
       - 6379:6379
-    command: redis-server --requirepass hanying2018 --appendonly yes # 启动redis服务并添加密码为：hanying2018,并开启redis持久化配置
+    command: redis-server --requirepass hanying2021 --appendonly yes # 启动redis服务并添加密码为：hanying2021,并开启redis持久化配置
     volumes:
       - ../data/redis_data:/data
     networks:
